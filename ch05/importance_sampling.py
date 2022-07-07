@@ -20,7 +20,8 @@ print('MC: {:.2f} (var: {:.2f})'.format(mean, var))
 
 
 
-b = np.array([1/3, 1/3, 1/3])
+# b = np.array([1/3, 1/3, 1/3])
+b = np.array([0.2, 0.2, 0.6]) # 確率分布を変更
 n = 100
 samples = []
 
